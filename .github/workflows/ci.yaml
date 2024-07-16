@@ -38,8 +38,8 @@ jobs:
           java-version: '17'
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.19.0' // specify the Flutter SDK version you want to use (use the one the project is built on)
-          dart-verion: '3.3.4' // specify the version as well
+          flutter-version: '3.19.0' # specify the Flutter SDK version you want to use (use the one the project is built on)
+          dart-version: '3.3.4' # specify the version as well
           channel: 'stable'
       - run: flutter pub get
       - run: flutter clean
